@@ -18,7 +18,13 @@
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
-
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+	'event' : 'login',
+	'loginMethod' : 'email' // this should be replaced with an actual login method
+});
+</script>
 
 </body>
 </html>
