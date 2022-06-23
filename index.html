@@ -19,11 +19,12 @@
 <p>My first paragraph.</p>
 
 <script>
-window.dataLayer = window.dataLayer || [];
-window.dataLayer.push({
-	'pageCategory' : 'BBVA'
-	//'event' : 'login',
-	//'loginMethod' : 'email' // this should be replaced with an actual login method
+var dataLayer = window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  'event': 'pageview',     
+    'pageCategory': 'Adrian',
+    'page_title': 'Home'   
+    
 });
 </script>
 
